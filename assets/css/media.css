@@ -1,0 +1,99 @@
+﻿/* Navbar */
+@media (max-width: 767px) {
+    .navbar .form-control {
+        width: 100% !important;
+    }
+}
+@media (max-width: 991px) {
+    .navigation .navbar-nav .nav-link {
+        margin-bottom: 10px;
+    }
+    .navbar-toggler {
+        margin-bottom: 5px;
+    }
+    .navbar {
+        background-color: #F8F9Fa;
+        margin-top: -16px;
+    }
+}
+/*@media (min-width: 992px) and (max-width: 1141px) {
+    .navbar .form-control {
+        width: 400px !important
+    }
+    .navigation .ul-nav-space {
+        margin-right: 250px !important;
+    }
+}
+@media (max-width: 991px) {
+    .navigation .ul-nav-space {
+        margin-right: auto !important;
+    }
+}*/
+/* Category */
+@media (max-width: 425px) {
+    .category .owl-carousel .owl-nav button.owl-next,
+    .category .owl-carousel .owl-nav button.owl-prev,
+    .category .owl-carousel button.owl-dot {
+        margin: 0 -10px !important;
+    }
+}
+/* Order */
+@media (max-width: 375px) {
+    .s-step .nav-tabs .nav-link {
+        padding: 8px 15px !important;
+    }
+    .s-step .btn {
+        padding: 8px 35px !important;
+    }
+}
+@media (max-width: 768px) {
+    .s-step .tab-pane {
+        margin: 0 !important;
+    }
+}
+/* Confirmation */
+@media (max-width: 425px) {
+    .checkout .confirmation-box {
+        display: block !important;
+        text-align: center;
+    }
+    .checkout .confirmation-box h4 {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 625px) {
+    .checkout .details-shipping {
+        margin: 30px 0  0 !important;
+    }
+    .checkout .products-box {
+        margin: 30px 0 !important;
+    }
+    .checkout .notes {
+        margin: 30px 0 0 !important;
+    }
+    .checkout .details-shipping .content {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 767px) {
+    .checkout .details-shipping h4 {
+        font-size: 19px !important;
+    }
+}
+/* Products */
+@media (max-width: 425px) {
+    .allProduct{
+        text-align: center;
+    }
+}
+@media (max-width: 991px) {
+    .allProduct .for-text-right {
+        text-align: center !important;
+    }
+}
+@media (max-width: 513px) {
+    .allProduct .custom-control {
+        width: 100% !important;
+        padding: 10px 38px !important;
+    }
+}
